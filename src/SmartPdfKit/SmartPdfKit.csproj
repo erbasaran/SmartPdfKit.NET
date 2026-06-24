@@ -15,7 +15,7 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<AssemblyName>SmartPdfKit</AssemblyName>
 		<PackageId>SmartPdfKit</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>Ramazan Erbasaran</Authors>
 		<Copyright>Copyright © 2026 Ramazan Erbasaran</Copyright>
 		<Description>High-performance PDF library for C# and .NET. Merge, split, rotate, crop, remove pages, edit metadata, add watermarks, encrypt/decrypt PDFs, apply password protection, perform Tesseract OCR, and reduce file size with advanced PDF compression and image optimization. Compatible with .NET Standard 2.0.</Description>
