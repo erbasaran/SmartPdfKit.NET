@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="samples/SmartPdfKit.Sample/SmartPdfKit.Sample.csproj" />
+  <Project Path="tests/SmartPdfKit.Tests/SmartPdfKit.Tests.csproj" />
+  <Project Path="src/SmartPdfKit/SmartPdfKit.csproj" />
+</Solution>

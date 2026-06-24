@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<PackageReference Include="Docnet.Core" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+		<PackageReference Include="PDFsharp" />
+		<PackageReference Include="SkiaSharp" />
+		<PackageReference Include="Tesseract" />
+		<PackageReference Include="UglyToad.PdfPig" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<AssemblyName>SmartPdfKit</AssemblyName>
+		<PackageId>SmartPdfKit</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Ramazan Erbasaran</Authors>
+		<Copyright>Copyright © 2026 Ramazan Erbasaran</Copyright>
+		<Description>High-performance PDF library for C# and .NET. Merge, split, rotate, crop, remove pages, edit metadata, add watermarks, encrypt/decrypt PDFs, apply password protection, perform Tesseract OCR, and reduce file size with advanced PDF compression and image optimization. Compatible with .NET Standard 2.0.</Description>
+		<PackageTags>pdf,pdf-tools,pdf-toolkit,library,toolkit merge,split,compress,ocr,tesseract,fluent,crop,rotate,watermark,encryption,decrypt,metadata,image,extraction,pdfsharp</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/erbasaran/SmartPdfKit.NET</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/erbasaran/SmartPdfKit.NET</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>
